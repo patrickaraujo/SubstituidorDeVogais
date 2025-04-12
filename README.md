@@ -48,5 +48,5 @@ Substituir todas as vogais de uma string por um caractere especificado e contar 
 ## 🚀 Como Executar
 
 ```bash
-gcc SubstituidorDeVogais.c -o SubstituidorDeVogais
-./SubstituidorDeVogais
+gcc main.c -o main
+./main
