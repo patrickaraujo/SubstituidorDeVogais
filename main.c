@@ -32,8 +32,7 @@ int main() {
     printf("\nString lida:\t%s\n", strOriginal);
 
     // Solicita o caractere de substituição
-    printf("\nEntre com um caractere (vogal ou consoante) para substituir ");
-    printf("as letras vogais da string lida: \t");
+    printf("\nEntre com um caractere (vogal ou consoante) para substituir as letras vogais da string lida: \t");
     char charSubst = getchar();
 
     // Variáveis para controle
