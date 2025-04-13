@@ -23,9 +23,10 @@ int main() {
     printf("Digite a palavra:\t");
     fgets(strOriginal, sizeof(strOriginal), stdin);
 
-    // Remove o caractere de nova linha ('\n') do final da string, se existir
-    // strcspn retorna o índice do primeiro '\n' encontrado
-    strOriginal[strcspn(strOriginal, "\n")] = '\0';
+    //  Remove o caractere de nova linha ('\n') do final da string, se existir
+    //  strcspn retorna o índice do primeiro '\n' encontrado
+    //  strOriginal[strcspn(strOriginal, "\n")] = '\0';
+    strOriginal[strcspn(strOriginal, "\n")] = strOriginal[strcspn(strOriginal, "\n")+1];
 
     // Exibe a string lida para confirmação
     printf("\nString lida:\t%s\n", strOriginal);
